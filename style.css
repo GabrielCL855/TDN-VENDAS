@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+background: url('https://cdn.discordapp.com/attachments/1352898210686832713/1390431563098882293/TROPA_DA_NORTS.png?ex=68683bcd&is=6866ea4d&hm=8eae82cf9cbc6facf33caad3b0fd460288bafd2fdfe9729408481fd49726e4f4&') no-repeat center center fixed;
+background-size: cover;
+color:rgba(0, 0, 0, 0.685);
+}
+
+img {
+display: block;
+margin: auto;
+height: 200;
+width: 150;
+margin-bottom: 15px;
+
+}
+
+.tabs {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 20px;
+}
+
+.tab-button {
+padding: 10px 20px;
+background: rgb(141, 93, 5);
+border: none;
+ cursor: pointer;
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+
+.tab-button.active {
+background: rgb(247, 210, 4);
+color: black;
+}
+
+.calculator {
+display: none;
+max-width: 500px;
+margin: 0 auto;
+background: rgb(211, 191, 105);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.calculator.active {
+display: block;
+}
+
+label, input {
+display: block;
+margin-bottom: 10px;
+}
+
+input[type=number] {
+width: 15%;
+padding: 5px;
+margin-bottom: 15px;
+
+}
+
+p {
+font-size: 18px;
+font-weight: bold;
+}
