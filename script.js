@@ -1,7 +1,7 @@
- const prices = [
-    { normal: 205000, parceria: 164000, g:20, m:20, d:12000, c:20 },  
+const prices = [
+    { normal: 280000, parceria: 224000, g:20, m:20, d:12000, c:20 },  
     { normal: 150000, parceria: 120000, g:15, m:9, d:9000, c:15 }, 
-    { normal: 190000, parceria: 152000, g:20, m:20, d:12000, c:20 }, 
+    { normal: 200000, parceria: 160000, g:20, m:20, d:12000, c:20 }, 
     { normal: 215000, parceria: 172000, g:9, m:17, d:10000, c:17 }, 
     { normal: 198000, parceria: 158000, g:10, m:16, d:8000, c:17 }, 
     { normal: 190000, parceria: 152000, g:8, m:15, d:9000, c:15 } 
